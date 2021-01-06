@@ -4,10 +4,10 @@ body{
 }
 section{
     height: 550px;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 .special-color{
     color: tomato;
@@ -24,10 +24,11 @@ h1{
 
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(tomato,lightblue);
+    background-image: linear-gradient(tomato,green);
+    font-weight: bold;
     padding: 10px 15px;
     border-radius: 10px;
-    color:black;
+    color:white;
 }
 .lastest-working-project{
     width: 100%;
@@ -71,4 +72,41 @@ h1{
 .Area-of-experties h2{
     padding-top: 80px;
 
+}
+.background-image{
+    background-image: url("shapes/Group_33094_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 85px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.work-inquiry{
+    float: left;
+    padding: 100px;
+    margin-left: 50px;
+}
+.chat-button{
+    text-decoration:none;
+    background-image: linear-gradient(tomato,green);
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 140px;
+  
+}
+.stay-connected{
+    text-align: center;
+    font-weight: bolder;
+    opacity: 70%;
+}
+.hello-design{
+    text-align: center;
+}
+footer{
+    padding-bottom: 200px;
 }
