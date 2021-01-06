@@ -2,6 +2,63 @@ body{
     margin: 0;
   font-family: 'Poppins', sans-serif;
 }
-h1{
-    font-size: 50px;
+section{
+    height: 500px;
+    padding-bottom: 150px;
 }
+h1{
+    font-size: 40px;
+}
+.special-color{
+    color: tomato;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 90%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,lightblue);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color:black;
+}
+.lastest-working-project{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: lightgray;
+}
+.lastest-working-project h2{
+    padding-top: 80px;
+}
+
+#power-x-gym{
+    
+    width: 300px;
+    height: 300px;
+}
+#creative-agency{
+    
+    width: 300px;
+    height: 300px;
+
+}
+#hard-rock-music{
+  
+    width: 300px;
+    height:300px;
+}
+.section-three-style{
+    background-color: white;
+    padding: 20px;
+    margin-top:50px;
+    margin-left: 130px;
+    border-radius: 10px;
+ }
